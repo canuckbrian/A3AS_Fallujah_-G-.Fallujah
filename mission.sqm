@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=133;
+	toggles=5;
 	class ItemIDProvider
 	{
 		nextID=312;
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6331.5415,179.32741,9558.6025};
-		dir[]={-0.46536922,-0.68139488,0.56493962};
-		up[]={-0.43324098,0.73191309,0.52593565};
-		aside[]={0.7718575,-6.861228e-008,0.63581651};
+		pos[]={3400.4617,42.629086,2983.3989};
+		dir[]={0.72236842,-0.54409534,0.42682624};
+		up[]={0.46849635,0.83897036,0.27682015};
+		aside[]={0.50871032,2.060915e-007,-0.86095715};
 	};
 };
 binarizationWanted=0;
@@ -508,7 +508,7 @@ class Mission
 			colorName="ColorOrange";
 			a=25;
 			b=25;
-			angle=53.875732;
+			angle=53.875729;
 			id=28;
 			atlOffset=-6.9800172;
 		};
@@ -659,7 +659,7 @@ class Mission
 			colorName="ColorCIV";
 			a=25;
 			b=25;
-			angle=27.146353;
+			angle=27.146351;
 			id=44;
 			atlOffset=-6.9900079;
 		};
@@ -866,7 +866,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3451,7.9596119,3012};
+				position[]={3452,7.9596119,3012};
+				angles[]={-0,0.68518317,0};
 			};
 			side="Empty";
 			flags=4;
@@ -902,7 +903,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3456.613,7.780539,3003.5271};
+				position[]={3456.5703,7.780539,3002.3413};
 			};
 			side="Empty";
 			flags=4;
@@ -961,7 +962,7 @@ class Mission
 		class Item56
 		{
 			dataType="Marker";
-			position[]={3454,1.8539791e+031,3029};
+			position[]={3451,1.8539791e+031,3007};
 			name="respawn_guer";
 			text="Your Headquarters";
 			type="hd_flag";
@@ -2476,8 +2477,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3436,6.9907308,2995};
-				angles[]={0,0.91005415,0};
+				position[]={3437,6.9907308,3001};
+				angles[]={-0,0.91005415,0};
 			};
 			id=281;
 			type="HighCommandSubordinate";
@@ -2487,8 +2488,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3436,6.9907308,2999};
-				angles[]={0,0.91005415,0};
+				position[]={3437,6.9907308,3004};
+				angles[]={-0,0.91005415,0};
 			};
 			name="HC_comandante";
 			id=282;
@@ -2587,6 +2588,7 @@ class Mission
 			};
 			id=290;
 			type="Land_TTowerBig_1_F";
+			atlOffset=-4.7683716e-007;
 		};
 		class Item116
 		{
@@ -2724,6 +2726,7 @@ class Mission
 			};
 			id=301;
 			type="Land_TTowerBig_1_F";
+			atlOffset=4.7683716e-007;
 		};
 		class Item127
 		{

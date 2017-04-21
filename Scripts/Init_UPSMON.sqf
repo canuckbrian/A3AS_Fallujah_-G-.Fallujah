@@ -16,7 +16,7 @@ UPSMON_maxwaiting = 10;
 UPSMON_SRCHTIME = 90;
 
 // if you are spotted by AI group, how close the other AI group have to be to You , to be informed about your present position. over this, will lose target
-UPSMON_sharedist = 800; // org value 800 => increased for ArmA3 map sizes for less predictable missions..
+UPSMON_sharedist = 300; // org value 800 => increased for ArmA3 map sizes for less predictable missions..
 
 // knowsAbout 0.5 1.03 , 1.49 to add this enemy to "target list" (1-4) the higher number the less detect ability (original in 5.0.7 was 0.5)
 // it does not mean the AI will not shoot at you. This means: what must be knowsAbout you to UPSMON adds you to the list of targets (UPSMON list of target)
