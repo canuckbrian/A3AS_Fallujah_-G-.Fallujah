@@ -5,6 +5,8 @@ Fallujah mission modification created by Brian Hill (CanuckBrian) admin@killerse
 This is a port of the Antistasi 1.7.5 mission for Fallujah 1.2. All credits go to the Antistasi team for their hard work on an awesome mission. 
 - Antistasi - http://www.a3antistasi.com
 
+(http://i.imgur.com/tbtJXcN.jpg)
+
 ### Required Addons
 - Fallujah - https://steamcommunity.com/sharedfiles/filedetails/?id=633789490
 - RHSAFRF - https://steamcommunity.com/sharedfiles/filedetails/?id=843425103
